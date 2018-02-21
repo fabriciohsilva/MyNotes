@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_padrao">15dp</dimen>
+    <dimen name="padding_padrão_edit">5dp</dimen>
+    <dimen name="font_size">30sp</dimen>
+</resources>

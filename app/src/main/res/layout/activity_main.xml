@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_padrao"
+    tools:context="com.fabriciohsilva.mynotes.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edit_notes"
+        android:layout_width="320dp"
+        android:layout_height="360dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fundo_anotacao"
+        android:gravity="start"
+        android:paddingBottom="@dimen/padding_padrão_edit"
+        android:paddingLeft="35dp"
+        android:paddingRight="@dimen/padding_padrão_edit"
+        android:paddingTop="@dimen/padding_padrão_edit"
+        android:textColor="@color/font_collor"
+        android:textSize="@dimen/font_size" />
+
+    <ImageView
+        android:id="@+id/btn_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/botao_salvar" />
+
+
+</LinearLayout>
